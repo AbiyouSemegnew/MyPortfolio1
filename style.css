@@ -242,6 +242,7 @@ section {
 #about {
   position: relative;
 }
+
 .about-section-container {
   display: flex;
   flex-direction: row;
@@ -281,10 +282,52 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  margin-right: 2rem;
 }
 
 .section_pic-container {
   height: 400px;
   width: 400px;
   margin: auto 0;
+}
+
+.text-container {
+  text-align: justify;
+}
+
+/*EXPERIENCE SECTION*/
+
+#experience {
+  position: relative;
+}
+.about-experiance-containers {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.experience-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: flex-start;
+  margin-right: 2.5rem;
+}
+
+article {
+  display: flex;
 }
