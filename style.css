@@ -360,7 +360,7 @@ article {
   border-color: rgb(163, 163, 163);
 }
 
-/* CONTACT */
+/* CONTACT SECTION*/
 #contact {
   display: flex;
   justify-content: center;
@@ -397,4 +397,19 @@ article {
 
 .email-icon {
   height: 2.5rem;
+}
+
+/* FOOTER SECTION*/
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer .nav-links {
+  text-align: center;
+  padding-left: 18rem;
 }
