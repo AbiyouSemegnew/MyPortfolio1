@@ -1,0 +1,152 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+
+  .about-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+
+  #profile,
+  .section-container {
+    display: block;
+  }
+  #about {
+    margin-top: 20rem;
+  }
+  .about-section-container {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .about-pic {
+    width: 100%;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  section,
+  .section-container {
+    height: fit-content;
+  }
+
+  .section_pic-container {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto 2rem;
+  }
+  .about-container {
+    margin-top: 0;
+  }
+  .projects-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .contact-info-upper-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #contact {
+    margin-top: 2rem;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  #about {
+    margin-top: 7rem;
+  }
+  .about-container {
+    flex-direction: column;
+  }
+  .about-container,
+  contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .about-experiance-containers {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  .details-container:nth-child(2) {
+    margin-top: 1rem;
+  }
+  .article-container {
+    justify-content: flex-start;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.25rem;
+    padding: 0;
+  }
+
+  footer .nav-links {
+    flex-direction: row;
+    padding-left: 1rem;
+  }
+  .section_pic-container {
+    width: auto;
+    height: 46vh;
+    justify-content: center;
+  }
+  .section_text_p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+  .contact-info-upper-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  footer .nav-links-container {
+    display: flex;
+  }
+  footer p {
+    flex-wrap: wrap;
+  }
+}
