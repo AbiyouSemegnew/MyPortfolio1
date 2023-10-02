@@ -48,6 +48,10 @@
     margin: 1rem;
   }
 
+  .project-img {
+    width: 100%;
+  }
+
   .section_pic-container {
     width: 400px;
     height: 400px;
