@@ -411,6 +411,19 @@ article {
   height: 2.5rem;
 }
 
+.certificate-container {
+  width: 20%;
+}
+
+.certificate-img {
+  width: 400px;
+  height: 400px;
+}
+
+.certifcate-btn {
+  margin-left: 5rem;
+}
+
 /* FOOTER SECTION*/
 footer {
   height: 26vh;
