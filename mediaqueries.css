@@ -44,6 +44,9 @@
   .section-container {
     height: fit-content;
   }
+  section {
+    margin: 1rem;
+  }
 
   .section_pic-container {
     width: 400px;
